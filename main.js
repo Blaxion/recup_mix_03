@@ -11,7 +11,7 @@ console.log(exo1)
 let exo2 = document.querySelectorAll('#content')
 console.log(exo2)
 // ### 3. Récupère les li dont la class est important avec querySelector et affiche le résultat dans la console
-let exo3 = document.querySelector('li, .important')
+let exo3 = document.querySelector('li.important')
 console.log(exo3)
 
 // ### 4. Récupère les li dont la class est important avec querySelectorAll et affiche le résultat dans la console
@@ -26,3 +26,5 @@ li_list.forEach(e => {
 });
 
 // ### 6. Récupère le p dont la class est "grandParagraphe" de la div id "content", tu dois ici utiliser un getElementById et un getElementsByClassName
+let exo6 = document.getElementById(content).getElementsByClassName(grandParagraphe)
+console.log(exo6)
